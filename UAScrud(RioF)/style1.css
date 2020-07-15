@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navigation */
+
+.nav-container {
+	background: #000000;
+	height: 100px;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 72px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav.logo {
+	font-family: "Rancho", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: #FDF9F9;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-right: 100px;
+}
+
+.nav-items li a {
+	color: #E0E0E0;
+	font-size: 24px;
+	font-family: "Roboto",sans-serif;
+	text-decoration: none;
+}
+
+/* Header */
+
+.header-container {
+	background: #7D7272;
+	background-repeat: no-repeat;
+  	background-position: right;
+  	background-size: contain;
+  	height: 900px;
+  	display: flex;
+  	align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 75px;
+	color: #F2F2F2;
+	margin-bottom: 24px;
+}
+
+header p {
+	font-family: Rancho;
+	font-size: 36px;
+	line-height: 45px;
+	color: #BDBDBD;
+	width: 732px;
+
+	margin-bottom: 48px;
+}
+
+header a {
+	color: #000000;
+	font-size: 24px;
+	text-decoration: none;
+
+	background: #BDBDBD;
+	border: 1px solid #333333;
+	box-sizing: border-box;
+	padding: 12px 48px;
+}
+
+/* Social Icons */
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 0 24px;
+}
+
+/* Hero image */
+
+header .hero-image {
+	position: relative;
+}
+
+/* content */
+#site_content
+{ width: 854px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 20px 24px 20px 20px;
+}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #000; 
+  color: #FFF;}
+
+.form_settings textarea, .form_settings select
+{ font: 100% arial; 
+  width: 299px;}
+
+.form_settings select
+{ width: 310px;}
+
+.form_settings .checkbox
+{ margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}  
+
+table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;}
+  
+table tr td
+{ background: #F0EFE2;
+  color: #47433F;
+  border-top: 1px solid #FFF;}
