@@ -36,3 +36,4 @@ Lalu CSS
 
 Begini Hasilnya
 
+![Screenshot (197)](https://user-images.githubusercontent.com/46512504/87563742-c7346200-c6e9-11ea-8c8a-8d9bb7cb4701.png)
